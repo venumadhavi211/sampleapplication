@@ -10,6 +10,7 @@ namespace webapiconsumemvc.Controllers
 {
     public class HomeController : Controller
     {
+        //index actionmethod
         public ActionResult Index()
         {
             return View();
