@@ -29,7 +29,7 @@ namespace webapiconsumemvc.Controllers
 
             return View();
         }
-        //Getmembers actionmethod
+        //Getmembers actionmethod2
         public ActionResult Getmembers()
         {
             IEnumerable<Productviewmodel> products = null;
