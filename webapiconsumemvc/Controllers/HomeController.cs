@@ -22,6 +22,7 @@ namespace webapiconsumemvc.Controllers
 
             return View();
         }
+        //contact
 
         public ActionResult Contact()
         {
