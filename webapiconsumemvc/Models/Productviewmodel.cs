@@ -5,6 +5,7 @@ using System.Web;
 
 namespace webapiconsumemvc.Models
 {
+    //productviewmodel
     public class Productviewmodel
     {
         public int productno { get; set; }
