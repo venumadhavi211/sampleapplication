@@ -38,7 +38,8 @@ namespace webapiconsumemvc.Controllers
                 client.BaseAddress = new Uri("http://localhost:13312/api/");
                 var responseTask = client.GetAsync("products");
                 responseTask.Wait();
-                var 
+                var Result=responseTask.Result;
+
 
                 //If success received   
                 if (result.IsSuccessStatusCode)
